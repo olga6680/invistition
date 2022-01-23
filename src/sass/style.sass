@@ -1,0 +1,43 @@
+@import 'libs/_fonts'
+@import 'base/_variables'
+
+*
+  font-family: 'Gotham Pro', sans-serif
+  font-size: 18px
+  letter-spacing: 2px
+html
+  box-sizing: border-box
+body
+  margin: 0
+  padding: 0
+  background: $bg-color
+  background-size: 100%
+.container
+  max-width: 1573px
+  margin: 0 auto
+a
+  text-decoration: none
+  color: #fff
+  transition: all .25s
+  &:hover, &:focus
+    background-image: linear-gradient(90deg, #E7AA19, #CB6D9C)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+.ellips
+  position: absolute
+  top: 0
+  left: 0
+  width: 413px
+  height: 418px
+  background: linear-gradient(180deg, #98C269 0%, #9EDFB6 100%)
+  filter: blur(500px)
+.gradient-color
+  background-color: #E7AA19
+  background-image: linear-gradient(90deg, #E7AA19, #CB6D9C)
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+
+@import 'blocks/_header'
+@import 'blocks/_menu'
+@import 'blocks/_buttons'
+@import 'blocks/_promo'

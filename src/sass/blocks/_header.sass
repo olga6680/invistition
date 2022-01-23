@@ -1,0 +1,47 @@
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  &__logo
+    width: 162px
+    img
+      width: 100%
+  &__lang
+    position: relative
+    width: 81px
+    height: 23px
+    box-sizing: border-box
+    img
+      width: 23px
+      height: 23px
+      border-radius: 100%
+    a
+      position: absolute
+      left: 29px
+      top: 50%
+      transform: translateY(-50%)
+      font-size: 18px
+      text-transform: uppercase
+      span
+        width: 22px
+      .down
+        display: inline-block
+        position: relative
+        width: 7px
+        height: 7px
+        top: -2px
+        margin-left: 5px
+        border-radius: 2px
+        border-top: 3px solid #fff
+        border-right: 3px solid #fff
+        transform: rotate(135deg)
+        transition: all .25s
+        &:hover, &:focus
+          border-top: 3px solid #E7AA19
+          border-right: 3px solid #CB6D9C
+  &__nav
+    margin-right: 181px
+  &__users
+    width: 367px
+    display: flex
+    justify-content: space-between
