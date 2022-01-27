@@ -1,10 +1,9 @@
 @media (max-width: 1573px)
   *
     font-size: 16px
-  body
-    padding: 0 45px
   .header
     justify-content: start
+    padding: 0 16px 0 45px
     &__logo
       margin-right: 40px
     &__users
@@ -67,8 +66,10 @@
         border-radius: 100%
         border: 1px solid #4BD879
   .promotion
+    border-radius: 0
     &__wrapp
       width: 890px
+
 
 @media (max-width: 1200px)
   .promotion
@@ -86,3 +87,96 @@
       order: 2
     &__desc
       order: 1
+
+@media (max-width: 992px)
+  *
+    font-size: 16px
+  .btn-border
+    padding: 8px 13px 0 13px
+    max-height: 30px
+    border-radius: 4px
+    font-size: 12px
+    margin-top: 3px
+    &:after
+      border-radius: 4px
+  .btn-gradient
+    padding: 8px 26px 11px 26px
+    border-radius: 4px
+    font-size: 14px
+  .header
+    &__lang
+      img
+        width: 20px
+        height: 20px
+    &__users
+      width: 261px
+
+@media (max-width: 768px)
+  body
+    padding-top: 14px
+  .header
+    &__logo
+      width: 120px
+    &__lang
+      display: none
+  .menu__lang
+    display: block
+  .hamburger
+    height: 16px
+    margin-right: 20px
+    padding: 0
+    span
+      width: 16px
+      height: 1px
+    span.short
+      width: 12px
+  .menu__close svg
+    width: 19px
+    height: 20px
+  .promotion
+    width: 100%
+    border-radius: 0
+    &__wrapp
+      max-width: 90%
+    &__title, &__text
+      font-size: 14px
+
+@media (max-width: 576px)
+  *
+    font-size: 12px
+  .btn-border
+    padding: 2px 9px 0 9px
+    max-height: 20px
+    border-radius: 4px
+    font-size: 7px
+    width: 50px
+    &:after
+      border-radius: 4px
+      padding: 0
+  .btn-gradient
+    width: 80px
+    height: 18px
+    padding: 8px 0 0 8px
+    border-radius: 4px
+    font-size: 7px
+    line-height: 7px
+    margin-left: 8px
+  .header
+    &__logo
+      min-width: 54px
+    &__users
+      max-width: 138px
+  .menu__block
+    width: 100%
+  .hamburger
+    margin-right: 14px
+  .promotion
+    padding: 8px 16px 30px 45px
+    &__timer
+      width: 100px
+    &__img
+      width: 46px
+      height: auto
+    &__timer, span, &__title, &__text
+      font-size: 10px
+      line-height: 13px
